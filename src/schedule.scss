@@ -1,0 +1,82 @@
+.schedule-section {
+  padding: 30px 20px;
+  background: #f9fbfd;
+  text-align: center;
+}
+
+.schedule-header h2 {
+  font-size: 36px;
+  font-weight: 800;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.schedule-header h2 span {
+  color: #00afef;
+}
+
+.schedule-header p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+.schedule-content {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.day-column {
+  background: #fff;
+  border-radius: 20px;
+  padding: 10px 20px;
+  max-width: 400px;
+  width: 100%;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+}
+
+.day-column h3 {
+  color: #ed3237;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.sessions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.session {
+  display: flex;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.time {
+  background-color: #00afef;
+  color: white;
+  font-weight: 600;
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-size: 14px;
+  min-width: 75px;
+  text-align: center;
+  margin-right: 15px;
+  margin-top: 2px;
+}
+
+.details .title {
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 4px;
+  margin-top: 0px;
+}
+
+.details .desc {
+  color: #666;
+  font-size: 14px;
+}

@@ -1,0 +1,106 @@
+.register-section {
+  background: url("../public/register bg.jpg") no-repeat center/cover;
+  padding: 60px 20px;
+  color: #000;
+  text-align: center;
+  position: relative;
+}
+
+.register-overlay {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 40px;
+  border-radius: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.tag {
+  background-color: #fff0f0;
+  color: #ed3237;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 800;
+  margin: 10px 0;
+
+  span {
+    color: #ed3237;
+  }
+}
+
+.subtext {
+  color: #555;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.benefits {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+  div {
+    text-align: center;
+    max-width: 160px;
+    h4 {
+      margin: 10px 0 5px;
+      font-weight: 700;
+    }
+    p {
+      font-size: 14px;
+      color: #777;
+    }
+  }
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  .input-row {
+    display: flex;
+    gap: 15px;
+    input, select {
+      flex: 1;
+    }
+  }
+
+  input, select {
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+  }
+
+  .policy {
+    font-size: 13px;
+    color: #444;
+    a {
+      color: #00afef;
+      text-decoration: underline;
+    }
+  }
+
+  button {
+    background: #ed3237;
+    color: #fff;
+    border: none;
+    padding: 14px;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+
+  .secure-note {
+    font-size: 15px;
+    color: #999;
+    margin-top: 10px;
+  }
+}

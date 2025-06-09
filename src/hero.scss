@@ -1,0 +1,126 @@
+.hero-section {
+  position: relative;
+  background: url('../public/Slider.jpg'); // ✅ Update if needed
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 95vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 20px;
+  text-align: center;
+  z-index: 0; // Important to let overlay sit behind content
+  overflow: hidden; // To keep overlay inside the section
+}
+
+.hero-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0,0,0,  0.5); // white overlay with 85% opacity
+  z-index: 1;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2; // Ensures content stays above the overlay
+}
+
+
+
+.hero-content {
+  max-width: 800px;
+}
+
+.black-text1 {
+  color: #ed3237;
+  font-size: 3rem;
+}
+
+.red-text1 {
+  color: #00afef;
+  font-size: 3rem;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.hero-content p {
+ margin-top: 15px;
+ font-size: 1.5rem;
+ color: #ffffff;
+ font-weight: 400;
+}
+
+.hero-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin: 40px 0;
+}
+.hero-cards p{
+  color: #000000;
+  font-size: 20px;
+}
+.info-card {
+  background-color: #fff;
+  padding: 10px 15px;
+  border-radius: 16px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.icon {
+  width: 28px;
+  height: 28px;
+}
+
+.icon.red {
+  color: #ed3237;
+}
+
+.icon.blue {
+  color: #00afef;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.btn {
+  padding: 12px 28px;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.red-btn {
+  background-color: #ed3237;
+  color: white;
+  border: none;
+}
+
+.red-btn:hover {
+  background-color: #c72529;
+}
+
+.outline-btn {
+  background: #c7c7c7;
+  border: 1.5px solid #ffffff;
+  color: #000000;
+}
+
+.outline-btn:hover {
+  border-color: #888;
+}

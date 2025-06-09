@@ -1,0 +1,155 @@
+.event-section {
+  background-color: #f4f6f8;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.event-header {
+  margin-bottom: 40px;
+}
+
+.info-btn {
+  background: white;
+  color: #ed3237;
+  border: 2px solid #ed3237;
+  padding: 8px 20px;
+  font-weight: 600;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.info-btn:hover {
+  background-color: #ed3237;
+  color: white;
+}
+
+.black-text {
+  color: #111;
+}
+
+.blue-text {
+  color: #00afef;
+}
+
+.red-text {
+  color: #ed3237;
+}
+
+.event-header h2 {
+  font-size: 2.5rem;
+  margin-top: 10px;
+}
+
+.event-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  margin: 40px 0;
+}
+
+.event-card {
+  background-color: #ffffff;
+  padding: 20px;
+  width: 240px;
+  border-radius: 16px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.07);
+  text-align: center;
+}
+
+.event-card .icon {
+  width: 34px;
+  height: 34px;
+  margin-bottom: 10px;
+}
+
+.icon.purple {
+  color: #7c3aed;
+}
+
+.icon.blue {
+  color: #00afef;
+}
+
+.icon.red {
+  color: #ed3237;
+}
+
+.event-card h4 {
+  margin-bottom: 6px;
+}
+
+.event-card p {
+  font-weight: 600;
+}
+
+.event-card span {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.badge {
+  margin-top: 12px;
+  display: inline-block;
+  font-size: 0.8rem;
+  background-color: #f1f1f1;
+  padding: 6px 12px;
+  border-radius: 20px;
+  color: #333;
+  font-weight: 500;
+}
+
+.event-image-box {
+  background-color: white;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 20px;
+  width: 70%;
+  // max-width: 900px;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+}
+
+.event-image-box img {
+  width: 100%;
+  border-radius: 16px;
+  height: 250px;
+}
+
+.event-image-box h5 {
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-bottom: 6px;
+  margin-top: 10px;
+}
+
+.event-image-box p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 0px;
+}
+
+.event-stats {
+  display: flex;
+  justify-content: center;
+  gap: 130px;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.event-stats div {
+  text-align: center;
+}
+
+.event-stats span {
+  font-size: 1.6rem;
+  font-weight: 700;
+  display: block;
+  color: #ed3237;
+}
+
+.event-stats p {
+  margin-top: 4px;
+  color: #555;
+  color: #00afef;
+}

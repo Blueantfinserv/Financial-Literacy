@@ -1,0 +1,97 @@
+.about-section {
+  background-color: #f9fafb;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.about-top {
+  max-width: 760px;
+  margin: 0 auto 60px;
+}
+
+.mission-btn {
+  background-color: #ffffff;
+  color: #00afef;
+  border: 2px solid #00afef;
+  padding: 8px 20px;
+  font-weight: 600;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.mission-btn:hover {
+  background-color: #00afef;
+  color: white;
+}
+
+.black-text {
+  color: #111;
+  font-size: 2.5rem;
+}
+
+.red-text {
+  color: #ed3237;
+  font-size: 2.5rem;
+}
+
+.about-description {
+  color: #444;
+  font-size: 1.1rem;
+  margin-top: 16px;
+}
+
+.about-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 40px;
+  align-items: flex-start;
+}
+
+.about-img {
+  width: 350px;
+  border-radius: 16px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  height: 450px;
+}
+
+.about-cards {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.about-card {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 16px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.07);
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  text-align: left;
+}
+
+.icon {
+  width: 32px;
+  height: 32px;
+  margin-top: 4px;
+}
+
+.icon.orange {
+  color: #f59e0b;
+  width: 50px;
+}
+
+.icon.purple {
+  color: #8b5cf6;
+  width: 50px;
+}
+
+.icon.blue {
+  color: #00afef;
+  width: 50px;
+}
