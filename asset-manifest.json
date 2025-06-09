@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/Financial-Summit/static/css/main.7607f4d0.css",
-    "main.js": "/Financial-Summit/static/js/main.dfca6bcd.js",
+    "main.js": "/Financial-Summit/static/js/main.a625850b.js",
     "static/js/453.3117f8a2.chunk.js": "/Financial-Summit/static/js/453.3117f8a2.chunk.js",
     "static/media/registerbg.jpg": "/Financial-Summit/static/media/registerbg.019f70f9fa3d44d65555.jpg",
     "static/media/Slider.jpg": "/Financial-Summit/static/media/Slider.89ae133e1bdeea4ffca1.jpg",
     "index.html": "/Financial-Summit/index.html",
     "main.7607f4d0.css.map": "/Financial-Summit/static/css/main.7607f4d0.css.map",
-    "main.dfca6bcd.js.map": "/Financial-Summit/static/js/main.dfca6bcd.js.map",
+    "main.a625850b.js.map": "/Financial-Summit/static/js/main.a625850b.js.map",
     "453.3117f8a2.chunk.js.map": "/Financial-Summit/static/js/453.3117f8a2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7607f4d0.css",
-    "static/js/main.dfca6bcd.js"
+    "static/js/main.a625850b.js"
   ]
 }
