@@ -2,7 +2,7 @@
   "name": "new-folder",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Aryan14032002.github.io/Financial-Summit",
+  "homepage": "https://Aryan14032002.github.io/Financial-summit",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
@@ -22,7 +22,6 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
-
   },
   "eslintConfig": {
     "extends": [

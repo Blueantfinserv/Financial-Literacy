@@ -36,7 +36,6 @@ const About = () => {
               </p>
             </div>
           </div>
-
           <div className="about-card">
             <TrendingUp className="icon purple" />
             <div>
@@ -51,10 +50,10 @@ const About = () => {
           <div className="about-card">
             <CreditCard className="icon blue" />
             <div>
-              <h4>Credit & Debt Management</h4>
+              <h4>Indian Banking System</h4>
               <p>
-                Navigate credit cards, loans, and debt responsibly to maintain a
-                healthy financial profile and credit score.
+                Get introduced to how banks work in India, types of accounts, digital banking,
+                 and safe banking practices.
               </p>
             </div>
           </div>

@@ -27,8 +27,6 @@
   z-index: 2; // Ensures content stays above the overlay
 }
 
-
-
 .hero-content {
   max-width: 800px;
 }
@@ -42,6 +40,10 @@
   color: #00afef;
   font-size: 3rem;
 }
+.blue-text1{
+  color: #e0ad04;
+  // font-size: 2rem;
+}
 
 .hero-content h1 {
   font-size: 3rem;
@@ -50,9 +52,10 @@
 
 .hero-content p {
  margin-top: 15px;
- font-size: 1.5rem;
+ font-size: 2rem;
  color: #ffffff;
- font-weight: 400;
+ font-weight: 600;
+
 }
 
 .hero-cards {
@@ -74,6 +77,16 @@
   display: flex;
   align-items: center;
   gap: 10px;
+}
+.info-card h3{
+  font-size: 20px;
+  color: #000000;
+  margin: 0;
+}
+.info-card p{
+  font-size: 15px;
+  color: #000000;
+  margin: 15px 0px;
 }
 
 .icon {

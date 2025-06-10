@@ -17,17 +17,15 @@ const EventDetails = () => {
         <div className="event-card">
           <CalendarDays className="icon purple" />
           <h4>Date & Time</h4>
-          <p>June 13-14, 2025</p>
-          <span>11:00 AM – 4:00 PM</span>
-          <div className="badge">2 Full Days Experience</div>
+          <p>June 18, 2025</p>
+          <span>11:00 AM – 4:30 PM</span>
         </div>
 
         <div className="event-card">
           <Building2 className="icon blue" />
           <h4>Venue</h4>
-          <p>Grand Convention Center</p>
-          <span>123 Summit Drive, Downtown</span>
-          <div className="badge">Premium Location</div>
+          <p>The Monarch </p>
+          <span>Indirapuram Habitat Centre</span>
         </div>
 
         <div className="event-card">
@@ -35,7 +33,6 @@ const EventDetails = () => {
           <h4>Target Audience</h4>
           <p>Youth aged 15+ years</p>
           <span>Students & Young Professionals</span>
-          <div className="badge">All Welcome</div>
         </div>
       </div>
 
@@ -48,7 +45,7 @@ const EventDetails = () => {
         <div><span className="blue-text">100+</span><p>Expected Attendees</p></div>
         <div><span className="red-text">4</span><p>Expert Speakers</p></div>
         <div><span>4</span><p>Workshop Sessions</p></div>
-        <div><span>FREE</span><p>Registration Cost</p></div>
+        <div><span>By Invitation</span><p>Registration Cost</p></div>
       </div>
     </section>
   );

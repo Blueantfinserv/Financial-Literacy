@@ -8,26 +8,25 @@ const Hero = () => {
       <div className="hero-content">
         <h1>
           <span className="black-text1">Financial Literacy </span>
-          <span className="red-text1">Summit 2025</span>
+          <span className="red-text1">Workshop 2025</span>
         </h1>
         <p>
-          Empowering the next generation with essential financial knowledge and
-          skills for a brighter, more secure future.
+          The Wealth Code For <span className="blue-text1">GEN Z</span>
         </p>
 
         <div className="hero-cards">
           <div className="info-card">
             <Calendar className="icon red" />
             <div>
-              <h4>June 13–14, 2025</h4>
-              <p>Two Full Days</p>
+              <h3>June 18, 2025</h3>
+              <p>11 am to 4:30 pm</p>
             </div>
           </div>
           <div className="info-card">
             <MapPin className="icon blue" />
             <div>
-              <h4>Grand Convention Center</h4>
-              <p>Downtown Location</p>
+              <h3>The Monarch </h3>
+              <p>Indirapuram Habitat Centre</p>
             </div>
           </div>
         </div>
